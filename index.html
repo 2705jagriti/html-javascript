@@ -3,7 +3,68 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>HTML</title>
+    <title>css basic</title>
+    <style>
+      .one {
+        background: rgba(199, 3, 3, 0.822);
+        color: rgb(255, 255, 255);
+        border: none;
+        height: 36px;
+        /* width: 100px;
+        border-radius: 3px; */
+        padding: 10px;
+        cursor: pointer;
+        vertical-align: top;
+      }
+      .two {
+        color: rgb(14, 139, 198);
+        border-color: rgb(14, 139, 198);
+        /* height: 30px;
+        width: 50px; */
+        padding: 9px 12px;
+        font-size: 12px;
+        font-weight: bold;
+        margin: 0px 10px 0px 10px;
+        cursor: pointer;
+        transform: opacity 2s;
+        vertical-align: top;
+      }
+      .three {
+        background-color: rgb(6, 132, 215);
+        color: white;
+        border-color: rgb(14, 139, 198);
+        border-radius: 25px;
+        border: none;
+        /* height: 30px;
+        width: 70px; */
+        padding: 10px;
+        font-size: 12px;
+        font-weight: bolder;
+        cursor: pointer;
+        vertical-align: top;
+      }
+      .one:hover {
+        opacity: 0.1;
+      }
+      .one:active {
+        opacity: 0.3;
+      }
+      .two:hover {
+        background-color: rgb(14, 139, 198);
+        color: white;
+      }
+      .two:active {
+        opacity: 0.5;
+      }
+      .three:hover {
+        box-shadow: 5px 5px red;
+        opacity: 0.5;
+      }
+    </style>
   </head>
-  <body></body>
+  <body>
+    <button class="one">SUBSCRIBE</button>
+    <button class="two">JOIN</button>
+    <button class="three">TWEET</button>
+  </body>
 </html>
