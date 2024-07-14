@@ -6,10 +6,12 @@ const userId = true;
 console.log(userId);
 let location = false;
 // let salary = nulll;
-console.log(typeof ( location, userName));
+console.log(typeof (location, userName));
 const car = ["volvo", "BMW", "range rover "];
 console.log(car);
 userName = "chaudhray";
 console.log(userName);
 userId = false;
+
+
 console.log(userId);
