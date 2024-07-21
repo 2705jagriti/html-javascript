@@ -49,9 +49,19 @@ const tinderUser={
 //console.log(tinderUser[typeof latsName]);
 //console.log(tinderUser.fullNameUser.latsName);
  //const obj1 = {tinderUser , jsUser}
-  const obj1 = Object.assign({}, tinderUser,jsUser)
- console.log(obj1);
+ // const obj1 = Object.assign({}, tinderUser,jsUser)
+ //console.log(obj1);
 
 
  //xxxxxxx object 3   xxxxxxxxxxx
- 
+ //destructure 
+ const course={
+    courseName:"javascript",
+    price: 800,
+    courseInstructor:"Hitesh"
+ }
+ //course.courseInstructor
+ //from where to extract value 
+ const  {courseInstructor } = course
+ console.log(courseInstructor)
+ //console.log(instructor);
