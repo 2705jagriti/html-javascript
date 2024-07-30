@@ -13,19 +13,20 @@
   <script>
     let intervalid;
     const startprint = function () {
-      console.log("jagriti", Date.now());
-      function printop() {
-        
-        intervalid = setInterval(printop, 1000);
+      intervalid = setInterval(printop, 1000);
       }
+      function printop() {
+        console.log("jagriti", Date.now());
+       
     };
 
     const endprint = function () {
       clearInterval(intervalid);
+      console.log("STOPPED");
     };
 
-    document.getElementById("#start").addEventListener("click", startprint);
+    document.getElementById("start").addEventListener("click", startprint);
 
-    document.getElementById("#stop").addEventListener("click", endprint);
+    document.getElementById("stop").addEventListener("click", endprint);
   </script>
 </html>
