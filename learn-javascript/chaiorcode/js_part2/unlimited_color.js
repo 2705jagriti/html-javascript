@@ -1,0 +1,1 @@
+document.getElementById('#start').style.Color= "green"

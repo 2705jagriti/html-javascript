@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PROJECT 1 </title>
+  </head>
+  <body style="background-color :#212121; color: #ffff;">
+    <h1>chalo padhai kare</h1>
+    <button id="stop">Stop</button>
+  </body>
+  <script>
+    const userName = function(){
+        console.log("jagriti");
+    }
+     const heading =function(){
+         document.querySelector('h1').innerHTML = "chai or code";
+     }
+    setTimeout(heading, 3000)
+    document.querySelector('#stop').addEventListener('click' , function(){
+        clearTimeout(heading);
+        console.log("STOPPED");
+
+    })
+    </script>
+</html>
